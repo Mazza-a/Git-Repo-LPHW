@@ -1,7 +1,7 @@
 #Very first excersize on LPHW
-Print "Hello Word!"
-Print "Hello Again"
-Print "I like typing like this"
+print "Hello Word!"
+print "Hello Again"
+print "I like typing like this"
 print 'Yay! Printing.'
 print "I'd much rather you 'not"
 print 'I "said" do not touch this.'
