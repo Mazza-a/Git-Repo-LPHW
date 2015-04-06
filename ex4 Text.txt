@@ -1,0 +1,5 @@
+At line 7 carpool_capacity is named with "carpool" being one word
+however when you typed in the actual code you called your variable
+car_pool_capacity with "carpool" being two words and since you did
+not add a value to car_pool_capacity the code returns the error
+name not defined
