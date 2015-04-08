@@ -1,0 +1,18 @@
+from the os.patch module import the dirname and join functions
+from the setuptoolds module import the setup module and find_packages functions
+
+open a file from the join and dirname functions and set it to the variable 'f'
+read the file *?.decode() *?.strip() and do other things with the read file 
+and set it to the variable "version" after that close the file
+
+describes the code he/she is making sets variables and values for them such as
+""" name = 'scrappy'
+	version = version
+	url = 'http://scrappy.org'
+	description = 'A high-level Web Crawling and Screen Scraping framework'
+
+creates list with various strings sets it to the variable 'classifiers'
+
+creates a list containing various strings sets it to the variable install_requires
+
+
