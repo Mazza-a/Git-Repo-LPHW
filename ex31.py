@@ -1,29 +1,34 @@
+# a print statement with text to start out the game
 print "You enter a dark room with two doors. Do you go through door #1, door #2, door #3 or #4?"
 
+#assigns raw_input("> ") to the variable 'door'.
 door = raw_input("> ")
 
+#starts off a if statement to determine what door the player chooses using the door variable
 if door == "1":
 	print "There's a giant bear here eating cheese cake. what do you do?"
 	print "1. Take the cake."
 	print "2. Scream at the bear."
-	
+	#assigns raw_input("> ") to the variable 'bear'
 	bear = raw_input("> ")
-	
+	#starts an if statement inside an if statement to create choices after the player picks a door
 	if bear == "1":
 		print "The bear eats your face off. Good job!"
 	elif bear == "2":
 		print "The bear eats your leg off. Good job!"
 	else:
 		print "Well, doing %s is probably better. Bear runs away." % bear
-		
+
+#using an elif statement this creates a situation for the player if he/she enters door #2
 elif door == "2":
 	print "You stare into the endless abyss at Cthulhu's retina."
 	print "1. Blueberries"
 	print "2. Yellow jacket clothespins."
 	print "3. Understanding revolvers yelling melodies."
-	
+	#sets raw_input("> ") to the variable 'insanity'
 	insanity = raw_input("> ")
 	
+	#creates more choices for the player after he/she enters door 2 using if and else statements
 	if insanity == "1" or insanity == "2":
 		print "Your body survives powered by a mind of jello. Good Job!"
 	else:
